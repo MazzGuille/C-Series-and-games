@@ -1,0 +1,12 @@
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\bin\Debug\net6.0\Interface.deps.json
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\bin\Debug\net6.0\Interface.dll
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\bin\Debug\net6.0\Interface.pdb
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.csproj.AssemblyReference.cache
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.AssemblyInfoInputs.cache
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.AssemblyInfo.cs
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.dll
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\refint\Interface.dll
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\Interface.pdb
+C:\Users\HP-ProBook 6460B\Desktop\programing\Curso C#\Tareas Latin Software\Interface\obj\Debug\net6.0\ref\Interface.dll
