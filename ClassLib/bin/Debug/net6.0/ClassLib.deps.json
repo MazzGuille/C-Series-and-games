@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ClassLib/1.0.0": {
+      "CLassLib/1.0.0": {
         "dependencies": {
           "Interface": "1.0.0"
         },
         "runtime": {
-          "ClassLib.dll": {}
+          "CLassLib.dll": {}
         }
       },
       "Interface/1.0.0": {
@@ -22,7 +22,7 @@
     }
   },
   "libraries": {
-    "ClassLib/1.0.0": {
+    "CLassLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
