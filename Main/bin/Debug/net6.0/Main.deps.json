@@ -8,18 +8,18 @@
     ".NETCoreApp,Version=v6.0": {
       "Main/1.0.0": {
         "dependencies": {
-          "CLassLib": "1.0.0"
+          "ClassLib": "1.0.0"
         },
         "runtime": {
           "Main.dll": {}
         }
       },
-      "CLassLib/1.0.0": {
+      "ClassLib/1.0.0": {
         "dependencies": {
           "Interface": "1.0.0"
         },
         "runtime": {
-          "CLassLib.dll": {}
+          "ClassLib.dll": {}
         }
       },
       "Interface/1.0.0": {
@@ -35,7 +35,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CLassLib/1.0.0": {
+    "ClassLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

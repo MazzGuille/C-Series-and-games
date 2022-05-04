@@ -1,22 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Interface
 {
     public interface IEntregable
     {
-        string Entregar 
-        {
-            get;
-            set;
-        }
-        string Devolver 
-        {
-            get;
-            set;
-        }
+        public var Prestado();
+        public var Entregar{get; set;}
+
+        public var Devolver { get; set; }
+
+        public var IsEntregado();
+        
 
     }
 }
+
+

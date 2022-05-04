@@ -1,64 +1,72 @@
-
 namespace SeriesLib 
 {
 
-    
+
 
     public class Serie : IEntregable
     {
-       
-        string IEntregable.Entregar
-        {
-            get { return true.ToString(); }
-            set { value = entregado.ToString(); }
-        }
-
-        string IEntregable.Devolver
-        {
-            get { return false.ToString(); }
-            set { value = entregado.ToString(); }
-        }
         private string titulo;
         private int numeroDeTemporadas;
         public bool entregado;
         private string genero;
         private string creador;
+        
+
+            public var Entregar { get; set; }
+            
+      
+      
+
+        public var IEntregable.IsEntregado()
+        {
+            return IEntregable.Prestado;
+        }
+       
+        
+            
+        
 
         public Serie(string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)
         {
-            
+
             this.numeroDeTemporadas = numeroDeTemporadas;
             this.genero = genero;
-           
+
         }
 
         public Serie(string titulo = "Dexter", string creador = "Genndy Tartakovsky")
         {
             this.titulo = titulo;
             this.creador = creador;
-           
+
         }
-       
-       public Serie(string titulo = "Dexter", string creador = "Genndy Tartakovsky", string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)
+
+        public Serie(string titulo = "Dexter", string creador = "Genndy Tartakovsky", string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)
         {
             this.titulo = titulo;
             this.creador = creador;
             this.genero = genero;
-            this.numeroDeTemporadas = numeroDeTemporadas;            
+            this.numeroDeTemporadas = numeroDeTemporadas;
         }
 
-        public Serie (String titulo, String genero, String creador, int numeroDeTemporadas, bool IEntregable)
+        public Serie(String titulo, String genero, String creador, int numeroDeTemporadas, bool entregado)
         {
             this.titulo = titulo;
             this.genero = genero;
             this.creador = creador;
             this.numeroDeTemporadas = numeroDeTemporadas;
-            this.entregado = IEntregable;
+            this.entregado = entregado;
+
         }
+
+
         
+
+
         
+
         
-        
+
 
         public string Titulo
         {

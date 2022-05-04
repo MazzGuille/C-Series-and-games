@@ -1,18 +1,8 @@
 namespace GamesLib
 {
-         public class Videogames : IEntregable
+         public class Videogames
         {
-            string IEntregable.Entregar
-        {
-            get { return true.ToString(); }
-            set { value = entregado.ToString(); }
-        }
-
-        string IEntregable.Devolver
-        {
-            get { return false.ToString(); }
-            set { value = entregado.ToString(); }
-        }
+           
             private string titulo;
             private int horasEstimadas;
             public bool entregado;
@@ -40,13 +30,13 @@ namespace GamesLib
                 
             }
 
-            public Videogames (string titulo, string compañia, string genero, int horasEstimadas, bool IEntregable = false)
+            public Videogames (string titulo, string compañia, string genero, int horasEstimadas, bool entregado = false)
             {
                 this.titulo = titulo;
                 this.compañia = compañia;
                 this.genero = genero;
                 this.horasEstimadas = horasEstimadas;
-                this.entregado = IEntregable;
+                this.entregado = entregado;
                 
             }
             
