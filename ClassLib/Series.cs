@@ -9,21 +9,7 @@ namespace SeriesLib
         private int numeroDeTemporadas;
         public bool entregado;
         private string genero;
-        private string creador;
-        
-
-            public var Entregar { get; set; }
-            
-      
-      
-
-        public var IEntregable.IsEntregado()
-        {
-            return IEntregable.Prestado;
-        }
-       
-        
-            
+        private string creador;      
         
 
         public Serie(string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)

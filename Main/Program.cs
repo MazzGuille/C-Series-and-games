@@ -8,7 +8,7 @@ string[] GamesGenero = { "Mitologia", "Ciencia Ficcion" };
 string[] GamesCompañia = { "Santa Monica", "Guerilla Games", "Yoko Taro" };
 int[] GamesHoras = { 3, 10, 40 };
 bool[] GamesEntregado = { false, true };
-string[] GamesPrestado = { };
+
 
 Serie Dexter = new Serie(SeriesTitulo[0], SeriesGenero[0], SeriesCreador[0], SeriesNumeroDeTemporadas[0]);
 Serie Invencible = new Serie(SeriesTitulo[1], SeriesGenero[1], SeriesCreador[1], SeriesNumeroDeTemporadas[1], SeriesEntregado[1]);
