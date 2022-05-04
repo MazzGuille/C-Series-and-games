@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj": {}
+    "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj": {
+    "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj",
+        "projectUniqueName": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj",
+        "projectPath": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\Interface.csproj",
         "packagesPath": "C:\\Users\\HP-ProBook 6460B\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\obj\\",
+        "outputPath": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP-ProBook 6460B\\AppData\\Roaming\\NuGet\\NuGet.Config",

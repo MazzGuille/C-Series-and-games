@@ -2,17 +2,17 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "CLassLib/1.0.0": {
+      "ClassLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Interface": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CLassLib.dll": {}
+          "bin/placeholder/ClassLib.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CLassLib.dll": {}
+          "bin/placeholder/ClassLib.dll": {}
         }
       },
       "Interface/1.0.0": {
@@ -28,10 +28,10 @@
     }
   },
   "libraries": {
-    "CLassLib/1.0.0": {
+    "ClassLib/1.0.0": {
       "type": "project",
-      "path": "../ClassLib/CLassLib.csproj",
-      "msbuildProject": "../ClassLib/CLassLib.csproj"
+      "path": "../ClassLib/ClassLib.csproj",
+      "msbuildProject": "../ClassLib/ClassLib.csproj"
     },
     "Interface/1.0.0": {
       "type": "project",
@@ -41,7 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CLassLib >= 1.0.0"
+      "ClassLib >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\main\\Main.csproj",
       "packagesPath": "C:\\Users\\HP-ProBook 6460B\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\Main\\obj\\",
+      "outputPath": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP-ProBook 6460B\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\ClassLib\\CLassLib.csproj": {
-              "projectPath": "c:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\ClassLib\\CLassLib.csproj"
+            "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\ClassLib\\ClassLib.csproj": {
+              "projectPath": "C:\\Users\\HP-ProBook 6460B\\Desktop\\programing\\Curso C#\\Tareas Latin Software\\ClassLib\\ClassLib.csproj"
             }
           }
         }

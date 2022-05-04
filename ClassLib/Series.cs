@@ -1,9 +1,8 @@
 namespace SeriesLib 
 {
 
-
-
-    public class Serie : IEntregable
+   
+    public class Serie
     {
         private string titulo;
         private int numeroDeTemporadas;

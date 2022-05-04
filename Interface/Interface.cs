@@ -2,12 +2,13 @@ namespace Interface
 {
     public interface IEntregable
     {
-        public bool Prestado();
-        public bool Entregar;
+        public void Prestado();
+       
+        //!public bool Entregar;
 
-        public bool Devolver;
+        //!public bool Devolver;
 
-        public string IsEntregado();
+        //!public string IsEntregado();
         
 
     }
