@@ -2,79 +2,98 @@ namespace SeriesLib
 {
 
    
-    public class Serie
+    public class Serie : IEntregable
     {
-        private string titulo;
-        private int numeroDeTemporadas;
-        public bool entregado;
-        private string genero;
-        private string creador;      
+        
+
+        private string _titulo;
+        private int _numeroDeTemporadas;
+        public bool Entregado = false;
+        private string _genero;
+        private string _creador;      
         
 
         public Serie(string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)
         {
 
-            this.numeroDeTemporadas = numeroDeTemporadas;
-            this.genero = genero;
+            this._numeroDeTemporadas = numeroDeTemporadas;
+            this._genero = genero;
 
         }
 
         public Serie(string titulo = "Dexter", string creador = "Genndy Tartakovsky")
         {
-            this.titulo = titulo;
-            this.creador = creador;
+            this._titulo = titulo;
+            this._creador = creador;
 
         }
 
         public Serie(string titulo = "Dexter", string creador = "Genndy Tartakovsky", string genero = "Policial-Suspenso", int numeroDeTemporadas = 3)
         {
-            this.titulo = titulo;
-            this.creador = creador;
-            this.genero = genero;
-            this.numeroDeTemporadas = numeroDeTemporadas;
+            this._titulo = titulo;
+            this._creador = creador;
+            this._genero = genero;
+            this._numeroDeTemporadas = numeroDeTemporadas;
         }
 
         public Serie(String titulo, String genero, String creador, int numeroDeTemporadas, bool entregado)
         {
-            this.titulo = titulo;
-            this.genero = genero;
-            this.creador = creador;
-            this.numeroDeTemporadas = numeroDeTemporadas;
-            this.entregado = entregado;
+            this._titulo = titulo;
+            this._genero = genero;
+            this._creador = creador;
+            this._numeroDeTemporadas = numeroDeTemporadas;
+            this.Entregado = entregado;
 
         }
 
+            //Metodos interfaz
 
+        public void Prestado()
+        {
+            this.Entregado = false;
+        }
+       
+        public void Entregar()
+        {
+            this.Entregado = true;
+        }
+
+        public void Devolver()
+        {
+            this.Entregado = false;
+        }
         
 
-
-        
+        public bool IsEntregado()
+        {
+            return this.Entregado;
+        }
 
         
 
 
         public string Titulo
         {
-            get { return titulo; }
-            set { titulo = value; }
+            get { return Titulo; }
+            set { Titulo = value; }
         }
 
         public int NumeroDeTemporadas
         {
-            get { return numeroDeTemporadas; }
-            set { numeroDeTemporadas = value; }
+            get { return NumeroDeTemporadas; }
+            set { NumeroDeTemporadas = value; }
         }       
 
         public string Genero
         {
-            get { return genero; }
-            set { genero = value; }
+            get { return Genero; }
+            set { Genero = value; }
         }
 
         public string Creador
         {
-            get { return creador; }
-            set { creador = value; }
+            get { return Creador; }
+            set { Creador = value; }
         }
 
     }

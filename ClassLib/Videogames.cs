@@ -5,7 +5,7 @@ namespace GamesLib
            
             private string titulo;
             private int horasEstimadas;
-            public bool entregado;
+            public bool entregado = false;
             private string genero;
             private string compañia;
 
@@ -30,7 +30,7 @@ namespace GamesLib
                 
             }
 
-            public Videogames (string titulo, string compañia, string genero, int horasEstimadas, bool entregado = false)
+            public Videogames (string titulo, string compañia, string genero, int horasEstimadas, bool entregado)
             {
                 this.titulo = titulo;
                 this.compañia = compañia;
