@@ -1,4 +1,5 @@
-﻿string[] SeriesTitulo = { "Dexter", "Invencible", "The big bang theory" };
+﻿
+string[] SeriesTitulo = { "Dexter", "Invencible", "The big bang theory" };
 string[] SeriesGenero = { "Policial", "Superheroes", "Comedia" };
 string[] SeriesCreador = { "Genndy Tartakovsky", "Robert Kirkman", "Chuck Lorre" };
 int[] SeriesNumeroDeTemporadas = { 3, 5, 10 };
@@ -18,21 +19,21 @@ Serie TheBigBangTheory = new Serie(SeriesTitulo[2], SeriesGenero[2], SeriesCread
 Console.WriteLine(@$"Serie 1:
     Titulo: {Dexter.Titulo}
     Temporadas: {Dexter.NumeroDeTemporadas}
-    Emtregado?: {Dexter.entregado}
+    Emtregado?: {Dexter.Entregado}
     Genero: {Dexter.Genero}
     Creador: {Dexter.Creador}");
 Console.WriteLine();
 Console.WriteLine(@$"Serie 2:
     Titulo: {Invencible.Titulo}
     Temporadas: {Invencible.NumeroDeTemporadas}
-    Entregado?: {Invencible.entregado}
+    Entregado?: {Invencible.Entregado}
     Genero: {Invencible.Genero}
     Creador: {Invencible.Creador}");
 Console.WriteLine();
 Console.WriteLine(@$"Serie 3:
     Titulo: {TheBigBangTheory.Titulo}
     Temporadas: {TheBigBangTheory.NumeroDeTemporadas}
-    Entregado?: {TheBigBangTheory.entregado}
+    Entregado?: {TheBigBangTheory.Entregado}
     Genero: {TheBigBangTheory.Genero}
     Creador: {TheBigBangTheory.Creador}");
 
